@@ -1,0 +1,52 @@
+/* On mouse hover, lighten state color */
+path:hover {
+	fill-opacity: .7;
+}
+
+/* Style for Custom Tooltip */
+.tooltip {
+ 	position: absolute;
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: white;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+div.jumbotron {
+	background: white;
+	/* font-style: italic; */
+	color: #666666;
+}
+
+
+/* Legend Font Style */
+body {
+	font: 15px sans-serif;
+}
+
+/* Legend Position Style */
+#legend {
+	position:absolute;
+	left:80%;
+	top:50%;
+}
+
+#map {
+	width: 95%;
+	height: auto;
+}
+#legend2 {
+	position:absolute;
+	left:20%;
+	top:50%;
+}
+
+#map2 {
+	width: 120%;
+	height: auto;
+}

@@ -1,1 +1,51 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Import D3.js  -->
+	<script src="http://d3js.org/d3.v4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+	<!-- Load in stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="jumbo" class="jumbotron jumbotron-fluid">
+		  <div class="container">
+		    <h1 class="display-4">Where are the Camp Fire Survivors now?</h1>
+		    <p class="lead">Each dot indicates that at least one Camp Fire survivor has re-located to that city.
+				<a href="https://www.google.com/maps/d/viewer?mid=1rCyXTAiGYiQFrMdhGt0SwYHxsS1RDSop&ll=36.013660843642505%2C-98.23089717811354&z=2">Follow link for data source</a>.</p>
+		  </div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<div id="map"></div>
+					<svg id="legend">
+					</svg>
+				</div>
+			</div>
+			<div class="row mt-5 mb-5">
+				<div class="col">
+					<div id="map2"></div>
+					<svg id="legend2">
+					</svg>
+				</div>
+			</div>
+		</div>
+
+	<!-- Load in map chart -->
+	<script type="text/javascript" src="d3.js"></script>
+	<script type="text/javascript" src="d3_california.js"></script>
+	<!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
